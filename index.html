@@ -30,7 +30,7 @@ body {
 /* Style the navigation bar links */
 .navbar a {
   color: white;
-  padding: 14px 20px;
+  padding: 25px 40px;
   text-decoration: none;
   text-align: center;
 }
@@ -71,35 +71,40 @@ body {
 
 /* Footer */
 .footer {
-      padding: 10px;
+        padding: 2px;
     text-align: center;
-    background: #6a0fce;
+    background: #0000cc;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
 }
 /* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
 @media (max-width: 700px) {
-  .row, .navbar {   
+  .row, .navbar { 
     flex-direction: column;
   }
+  
+  h2 {
+  color:#fff;
 }
+
 </style>
 </head>
 
 <body>
 
 <!-- Note -->
-<div style="background:yellow;padding:10px">
+<div style="background:#0000cc;padding:10px">
   <h1 style="text-align:center">WELCOME TO HARDBOP HEAVEN</h1>
 </div>
 
 <!-- Header -->
-<div class="header">
-  <h1>My Website</h1>
-  <p>With a <b>flexible</b> layout.</p>
-</div>
+
 
 <!-- Navigation Bar -->
 <div class="navbar">
- <a href="#">ARTIST</a>
+<a href="artists.html" target="_blank"> ARTIST</a>
   <a href="#">INSTRUMENTS</a>
   <a href="#">RECORDINGS</a>
   <a href="#">VIDEOS</a>
@@ -109,7 +114,7 @@ body {
 
 <!-- Footer -->
 <div class="footer">
- <h2>ABOUT</h2>
+ <h2></h2>
 </div>
 
 </body>
