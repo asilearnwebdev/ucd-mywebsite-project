@@ -3,30 +3,25 @@ html {
    font-family: sans-serif;
   -webkit-text-size-adjust: 100%;
       -ms-text-size-adjust: 100%;
-       background: url(/assets/images/telephone-booth-london.jpg) no-repeat center center fixed; 
+       background: url(/assets/images/dgbg5.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
 }
+
+/* set background image per page */
+recordings {
+background: url(/assets/images/dgbg4.jpg) no-repeat center center fixed;
+}
+  
+
 body {
  
   display:inline;
 }
 
-@media (min-width: 576px) { 
-    
-}
-
-@media (min-width: 768px) { 
-    
-}
-
-@media (min-width: 992px) {
-    
-}
-
-
+/*----------------MEDIA QUERIES*/
 
 /*--------------------------------------------NAVBAR*/
 .nav{
